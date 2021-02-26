@@ -661,7 +661,22 @@ if (text.includes("placa"))
 			client.updatePresence(from, Presence.composing)
 			reply("teu pai")
 	}
-	
+
+	if (messagesC.includes("kawazapi")){
+			client.updatePresence(from, Presence.composing)
+			reply("fiu fiu fiu fiu fiu")
+	}
+
+     	if (messagesC.includes("kawazap")){
+			client.updatePresence(from, Presence.composing)
+			reply("fiu fiu fiu fiu fiu")
+	}
+
+        if (messagesC.includes("friboi")){
+			client.updatePresence(from, Presence.composing)
+			reply("helena S2")
+	}
+
 		if (messagesC.includes("corno")){
 			client.updatePresence(from, Presence.composing)
 			reply("vsfd seu merda")
@@ -677,6 +692,11 @@ if (text.includes("placa"))
 			reply("bora juntos?")
 	}
 	
+		if (messagesC.includes("kauan")){
+			client.updatePresence(from, Presence.composing)
+			reply("amo")
+	}
+	
 		if (messagesC.includes("cadebot")){
 			client.updatePresence(from, Presence.composing)
 			reply("olha eu aqui carai")
@@ -686,7 +706,7 @@ if (text.includes("placa"))
 			client.updatePresence(from, Presence.composing)
 			reply("oi")
 	}
-	
+
 			if (messagesC.includes("bah")){
 			client.updatePresence(from, Presence.composing)
 			tujuh = fs.readFileSync('./assets/fdp.mp3');
